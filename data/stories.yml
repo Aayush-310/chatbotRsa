@@ -28,3 +28,174 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+- story: About Us
+  steps:
+  - intent: about_us
+  - action: utter_about_us
+
+- story: Services
+  steps:
+  - intent: services
+  - action: utter_services
+
+- story: LiDAR
+  steps:
+  - intent: lidar
+  - action: utter_lidar
+
+- story: Photogrammetry
+  steps:
+  - intent: photogrammetry
+  - action: utter_photogrammetry
+
+- story: WebGIS
+  steps:
+  - intent: webgis
+  - action: utter_webgis
+
+- story: Portfolio
+  steps:
+  - intent: portfolio
+  - action: utter_portfolio
+
+- story: Contact
+  steps:
+  - intent: contact
+  - action: utter_contact
+- story: Greet and Inquire About Services
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: services
+  - action: utter_services
+
+- story: Mood and LiDAR
+  steps:
+  - intent: mood_great
+  - action: utter_happy
+  - intent: lidar
+  - action: utter_lidar
+
+- story: Ask About Portfolio
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: portfolio
+  - action: utter_portfolio
+
+- story: Ask About Services and Contact Information
+  steps:
+  - intent: services
+  - action: utter_services
+  - intent: contact
+  - action: utter_contact
+
+- story: Mood, About Us, and Goodbye
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: about_us
+  - action: utter_about_us
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Greet, Mood, and LiDAR
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: lidar
+  - action: utter_lidar
+
+- story: Ask About Photogrammetry
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: photogrammetry
+  - action: utter_photogrammetry
+
+- story: Greet, Mood, and WebGIS
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: webgis
+  - action: utter_webgis
+
+- story: Greet, Portfolio, and Services
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: portfolio
+  - action: utter_portfolio
+  - intent: services
+  - action: utter_services
+
+- story: Contact and Mood
+  steps:
+  - intent: contact
+  - action: utter_contact
+  - intent: mood_great
+  - action: utter_happy
+
+- story: Mood and Photogrammetry
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: photogrammetry
+  - action: utter_photogrammetry
+
+- story: Greet and Portfolio
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: portfolio
+  - action: utter_portfolio
+
+- story: Mood and Contact
+  steps:
+  - intent: mood_great
+  - action: utter_happy
+  - intent: contact
+  - action: utter_contact
+
+- story: Greet and WebGIS
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: webgis
+  - action: utter_webgis
+
+- story: Greet, Services, and Mood
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: services
+  - action: utter_services
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+
+- story: LiDAR and Portfolio
+  steps:
+  - intent: lidar
+  - action: utter_lidar
+  - intent: portfolio
+  - action: utter_portfolio
+
+- story: Ask About Us and WebGIS
+  steps:
+  - intent: about_us
+  - action: utter_about_us
+  - intent: webgis
+  - action: utter_webgis
+
+- story: Mood, Contact, and Goodbye
+  steps:
+  - intent: mood_great
+  - action: utter_happy
+  - intent: contact
+  - action: utter_contact
+  - intent: goodbye
+  - action: utter_goodbye

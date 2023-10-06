@@ -1,0 +1,6 @@
+text,category
+"I love this product.",positive
+"This is terrible.",negative
+"The service was excellent.",positive
+"The app crashes frequently.",negative
+...

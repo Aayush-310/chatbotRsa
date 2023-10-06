@@ -89,3 +89,105 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: about_us
+  examples: |
+    - Tell me about GeoSpatial Systems Pvt. Ltd.
+    - What does GeoSpatial Systems Pvt. Ltd. do?
+    - About the company
+    - History of GeoSpatial Systems Pvt. Ltd.
+
+- intent: services
+  examples: |
+    - What services does GeoSpatial Systems Pvt. Ltd. provide?
+    - Tell me about your services
+    - Services offered by GeoSpatial Systems
+    - What can I get from GeoSpatial?
+
+- intent: lidar
+  examples: |
+    - What is LiDAR?
+    - Tell me about LiDAR technology
+    - How does LiDAR work?
+    - LiDAR data processing
+
+- intent: photogrammetry
+  examples: |
+    - What is photogrammetry?
+    - Tell me about your photogrammetric services
+    - How can I use photogrammetry for mapping?
+
+- intent: webgis
+  examples: |
+    - What is Web-GIS?
+    - Explain Web-GIS technology
+    - How can I access geographic information through Web-GIS?
+
+- intent: portfolio
+  examples: |
+    - Show me your portfolio
+    - Examples of your work
+    - Projects by GeoSpatial Systems Pvt. Ltd.
+
+- intent: contact
+  examples: |
+    - How can I contact GeoSpatial Systems Pvt. Ltd.?
+    - Contact information
+    - Where is your office located?
+- intent: inquire_location
+  examples: |
+    - Where are you located?
+    - What's your address?
+    - Tell me your office address
+    - Where can I find you?
+
+- intent: inquire_services_specific
+  examples: |
+    - Can you provide LiDAR services?
+    - What photogrammetry services do you offer?
+    - Tell me more about your Web-GIS capabilities.
+
+- intent: inquire_technology
+  examples: |
+    - Explain GIS technology.
+    - How does photogrammetry work?
+    - Tell me about GIS applications.
+    
+- intent: inquire_portfolio_details
+  examples: |
+    - Show me a project involving LiDAR technology.
+    - Can you provide an example of your photogrammetry work?
+
+- intent: inquire_contact_alternatives
+  examples: |
+    - How can I reach you?
+    - Provide your contact details.
+    - Do you have an email address for inquiries?
+    
+- intent: express_gratitude
+  examples: |
+    - Thank you!
+    - Thanks for your help.
+    - I appreciate it.
+    - Great, thanks.
+
+- intent: inquire_business_hours
+  examples: |
+    - What are your business hours?
+    - When are you open?
+    - Tell me your operating hours.
+
+- intent: inquire_website
+  examples: |
+    - Can you share your website link?
+    - What's your website URL?
+    - Provide your website address.
+
+- intent: inquire_services_specific
+  examples: |
+    - Do you provide contour generation services?
+    - Can you generate contours?
+    - Tell me about contour mapping services
+    - Contour generation
+
+

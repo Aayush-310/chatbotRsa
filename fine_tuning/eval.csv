@@ -1,0 +1,4 @@
+text,entities
+"Apple Inc. is headquartered in Cupertino, California.",[{"start": 0, "end": 9, "label": "ORG"}, {"start": 41, "end": 51, "label": "LOC"}]
+"John Smith works at XYZ Corporation.",[{"start": 0, "end": 10, "label": "PERSON"}, {"start": 27, "end": 45, "label": "ORG"}]
+...
